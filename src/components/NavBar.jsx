@@ -3,11 +3,10 @@ import { Outlet, Link } from "react-router-dom";
 export const NavBar = () => {
 
     return (
-        <nav className="bg-white border-gray-700 px-2 sm:px-4 py-2.5">
-            <div className="container max-w-[1200px] flex flex-wrap justify-between items-center mx-auto">
+        <nav className="bg-white border-gray-700 py-2.5">
+            <div className="container max-w-[1200px] mx-auto md:px-10 sm:px-8 px-6 flex flex-wrap justify-between items-center mx-auto">
                 <Link to="/" className="flex items-center">
                     <img src={logo} className=" mr-3 w-20" alt="DDM Smetanka" />
-                    <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">DDM Smetanka</span>
                 </Link>
                 <button id="triggerEl" data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 " aria-controls="navbar-default" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>

@@ -2,8 +2,8 @@
 
 export const Footer = () => {
     return (<footer className="ukblue">
-        <div className="max-w-[1200px] mx-auto flex flex-wrap md:justify-between sm:justify-center sm:flex-wrap  py-8  text-white">
-            <div className="max-w-[320px] py-8 px-10 mb-10">
+        <div className="container max-w-[1200px] mx-auto md:px-10 sm:px-8 px-6 mx-auto py-8 text-white md:flex flex-wrap md:justify-between">
+            <div className="max-w-[320px] mx-auto md:mx-0 py-8 mb-10 pr-5">
                 <h2 className="mb-6 text-sm font-semibold  uppercase text-yellow">Lorem ipsum</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris
@@ -12,7 +12,7 @@ export const Footer = () => {
                     vitae placerat pede sem sit amet enim. Integer imperdiet lectus quis justo. Vestibulum fermentum tortor id mi. Duis pulvinar. Cras pede libero, dapibus nec, pretium sit amet.
                 </p>
             </div>
-            <div className="max-w-[320px] py-8 px-10 mb-10">
+            <div className="max-w-[320px] mx-auto md:mx-0 py-8 mb-10 pr-5">
                 <h2 className="mb-6 text-sm font-semibold  uppercase text-yellow">Kontakty</h2>
                 <ul className="">
                     <li className="mb-4">
@@ -35,7 +35,7 @@ export const Footer = () => {
                     </li>
                 </ul>
             </div>
-            <div className="py-8 px-10 mb-10">
+            <div className="max-w-[320px]  py-8 mx-auto md:mx-0 mb-10">
                 <h2 className="mb-6 text-sm font-semibold uppercase text-yellow">Externí odkazy</h2>
                 <ul className="">
                     <li className="mb-4">
@@ -51,10 +51,20 @@ export const Footer = () => {
             </div>
 
         </div>
-        <div className="py-6 px-4 ukyellow">
-            <div className="max-w-[1200px] mx-auto md:flex md:items-center md:justify-between">
-                <span className="text-sm  sm:text-center">© 2022 <a href="https://flowbite.com/">Dům dětí a mládeže "Smetanka" Nový Bor</a> všechna práva vyhrazena.
-                </span>
+        <div className="py-6 ukyellow text-gray-700">
+            <div className="container max-w-[1200px] mx-auto md:px-10 sm:px-8 px-6 mx-auto flex flex-wrap md:flex-nowrap justify-center md:justify-between">
+                <div className="mb-5 md:mb-0 mr-5" >
+                    <span className="text-sm text-center md:text-left">© 2022 <a href="https://flowbite.com/" className="">Dům dětí a mládeže "Smetanka" Nový Bor</a> všechna práva vyhrazena.
+                    </span>
+                </div>
+
+                <div className="flex flex-wrap justify-center items-center md:mb-0">
+                    <a href="#" className="text-sm  mr-2">Prohlášení o přístupnosti</a>
+                    <span> </span>
+                    <a href="#" className="text-sm  mr-2">Soubory cookie</a>
+                    <span> </span>
+                    <a href="#" className="text-sm  mr-2">Vstup pro správu</a>
+                </div>
 
             </div>
         </div>

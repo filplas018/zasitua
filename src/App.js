@@ -18,6 +18,7 @@ import Article from "./pages/Article";
 import Links from "./pages/Links";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
+import UserArticles from "./pages/UserArticles";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -57,6 +58,7 @@ function App() {
           <Route path="/uzitecne-odkazy" element={<Links />} />
           <Route path="/o-nas" element={<About />} />
           <Route path="/kontakty" element={<Contacts />} />
+          <Route path="/autor" element={<UserArticles />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
