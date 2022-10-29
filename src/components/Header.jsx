@@ -8,12 +8,12 @@ export const Header = () => {
                     <img src={ua_flag} alt="ua heart flag" />
                 </div>
                 <div className="md:w-[40%] mb-8">
-                    <h1 className="mb-12 text-4xl font-semibold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl">Pomoc pro potřebné lorem ipsum <span className="text-yellow">sit dolor</span></h1>
+                    <h1 className="mb-12 text-4xl font-semibold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl">Pomoc pro potřebné lorem ipsum <span className="text-uayellow">sit dolor</span></h1>
                     <p className="mb-14 text-lg font-normal text-gray-500 lg:text-xl  dark:text-gray-500">
                         Pomáháme Ukrajině hodně, lorem ipsum sitak dolorak ametak bramborak, tramtarara cimcimcim hej hej filip je gej
                     </p>
                     
-                        <a href="#" className="border rounded-lg p-5 ukblue text-white">
+                        <a href="#" className="border rounded-lg p-5 bg-uablue text-white">
                             Dozvědet se více
                         </a>
                     

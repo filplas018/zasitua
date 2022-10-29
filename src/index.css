@@ -2,16 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.ukblue{
+.uablue{
     background-color: rgb(0, 87, 183);
 }
-.ukyellow{
+.uayellow{
     background-color: rgb(255, 221, 0);
 }
-.text-blue{
+.text-uablue{
     color: rgb(0, 87, 183);
 }
-.text-yellow{
+.text-uayellow{
     color: rgb(255, 221, 0);
 }
 h1, h2, h3, h4, h5, h6{

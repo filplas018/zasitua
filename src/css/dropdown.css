@@ -1,0 +1,25 @@
+.trigger-button {
+    cursor: pointer;
+  }
+  
+  .dropdown-wrapper {
+    position: relative;
+    width: 200px;
+  }
+
+  
+  .dropdown-wrapper>div.notactive {
+    overflow: hidden;
+    height: 0px;
+    transition: height 0.3s ease;
+  }
+  
+  .dropdown-wrapper>div.active {
+    height: 100px;
+    overflow: auto;
+    transition: height 0.3s ease;
+  }
+  .hideNav{
+    display: none;
+  }
+  
