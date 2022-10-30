@@ -19,6 +19,7 @@ import Links from "./pages/Links";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
 import UserArticles from "./pages/UserArticles";
+import Searched from "./pages/Searched";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -59,6 +60,7 @@ function App() {
           <Route path="/o-nas" element={<About />} />
           <Route path="/kontakty" element={<Contacts />} />
           <Route path="/autor" element={<UserArticles />} />
+          <Route path="/searched/:searchString" element={<Searched />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
