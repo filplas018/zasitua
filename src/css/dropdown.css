@@ -13,6 +13,9 @@
     height: 0px;
     transition: height 0.3s ease;
   }
+ .dropdown-wrapper .active::-webkit-scrollbar{
+  display: none;
+ }
   
   .dropdown-wrapper>div.active {
     height: 100px;

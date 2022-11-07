@@ -35,16 +35,16 @@ export const NavBar = () => {
                     <ul className="flex flex-col p-4 mt-4 bg-gray-50 lg:text-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white text-uablue">
 
                         <li>
-                            <Link to="/o-nas" className="block py-2 pr-4 pl-3 text-uablue">O nás</Link>
+                            <Link to="/o-nas" className="block py-2 pr-4 pl-3 text-uablue hover:underline">O nás</Link>
                         </li>
                         <li>
-                            <Link to="/aktuality" className="block py-2 pr-4 pl-3 text-uablue">Aktuality</Link>
+                            <Link to="/aktuality" className="block py-2 pr-4 pl-3 text-uablue hover:underline">Aktuality</Link>
                         </li>
                         <li>
-                            <Link to="/uzitecne-odkazy" className="block py-2 pr-4 pl-3 text-uablue">Odkazy</Link>
+                            <Link to="/uzitecne-odkazy" className="block py-2 pr-4 pl-3 text-uablue hover:underline">Odkazy</Link>
                         </li>
                         <li>
-                            <Link to="/kontakty" className="block py-2 pr-4 pl-3 text-uablue">Kontakty</Link>
+                            <Link to="/kontakty" className="block py-2 pr-4 pl-3 text-uablue hover:underline">Kontakty</Link>
                         </li>
                         <li>
                             <form onSubmit={ () => handleSearchSubmit()}>
@@ -54,7 +54,7 @@ export const NavBar = () => {
                         </li>
                         <li className="text-gray-500">
                             <div className="py-2 pr-4 pl-3">
-                                <a href="">CZ</a> | <a href="">PL</a> | <a href="">EN</a></div>
+                                <a href="" className="hover:underline">CZ</a> | <a href="" className="hover:underline">PL</a> | <a href="" className="hover:underline">EN</a></div>
                         </li>
                     </ul>
                 </div>

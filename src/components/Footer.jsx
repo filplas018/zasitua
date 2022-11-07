@@ -54,16 +54,16 @@ export const Footer = () => {
         <div className="py-6 uayellow text-gray-700">
             <div className="container max-w-[1200px] mx-auto md:px-10 sm:px-8 px-6 mx-auto flex flex-wrap md:flex-nowrap justify-center md:justify-between">
                 <div className="mb-5 md:mb-0 mr-5" >
-                    <span className="text-sm text-center md:text-left">© 2022 <a href="https://flowbite.com/" className="">Dům dětí a mládeže "Smetanka" Nový Bor</a> všechna práva vyhrazena.
+                    <span className="text-sm text-center md:text-left">© 2022 Dům dětí a mládeže "Smetanka" Nový Bor všechna práva vyhrazena.
                     </span>
                 </div>
 
                 <div className="flex flex-wrap justify-center items-center md:mb-0">
-                    <a href="#" className="text-sm  mr-2">Prohlášení o přístupnosti</a>
+                    <a href="#" className="text-sm  mr-2 hover:underline">Prohlášení o přístupnosti</a>
                     <span> </span>
-                    <a href="#" className="text-sm  mr-2">Soubory cookie</a>
+                    <a href="#" className="text-sm  mr-2 hover:underline">Soubory cookie</a>
                     <span> </span>
-                    <a href="#" className="text-sm  mr-2">Vstup pro správu</a>
+                    <a href="#" className="text-sm  mr-2 hover:underline">Vstup pro správu</a>
                 </div>
 
             </div>
